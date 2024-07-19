@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.example.MyTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-07-12T08:11:48" hostname="BOOK-PVIEOTPVKE" time="0.028">
+  <properties/>
+  <testcase name="test1()" classname="org.example.MyTests" time="0.023"/>
+  <testcase name="test2()" classname="org.example.MyTests" time="0.002"/>
+  <system-out><![CDATA[2024-07-12T08:11:48.200391500Z Test worker DEBUG Apache Log4j Core 2.23 initializing configuration XmlConfiguration[location=C:\Users\USER\IdeaProjects\day7\build\resources\main\log4j2.xml]
+2024-07-12T08:11:48.205616800Z Test worker DEBUG PluginManager 'Core' found 131 plugins
+2024-07-12T08:11:48.205616800Z Test worker DEBUG PluginManager 'Level' found 0 plugins
+2024-07-12T08:11:48.211301500Z Test worker DEBUG PluginManager 'Lookup' found 16 plugins
+2024-07-12T08:11:48.214067700Z Test worker DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2024-07-12T08:11:48.221175100Z Test worker DEBUG PluginManager 'TypeConverter' found 26 plugins
+2024-07-12T08:11:48.235929400Z Test worker DEBUG PatternLayout$Builder(pattern="%d{yyyy-MM-dd hh:mm:ss} %5p [%c] %m%n", PatternSelector=null, Configuration(C:\Users\USER\IdeaProjects\day7\build\resources\main\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2024-07-12T08:11:48.235929400Z Test worker DEBUG PluginManager 'Converter' found 45 plugins
+2024-07-12T08:11:48.235929400Z Test worker DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2024-07-12T08:11:48.249349100Z Test worker DEBUG ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd hh:mm:ss} %5p [%c] %m%n), name="console", Configuration(C:\Users\USER\IdeaProjects\day7\build\resources\main\log4j2.xml), Filter=null, ={})
+2024-07-12T08:11:48.251859600Z Test worker DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2024-07-12T08:11:48.251859600Z Test worker DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2024-07-12T08:11:48.255622700Z Test worker DEBUG createAppenders(={console})
+2024-07-12T08:11:48.257224900Z Test worker DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-07-12T08:11:48.260356300Z Test worker DEBUG createAppenderRef(ref="console", level="null", Filter=null)
+2024-07-12T08:11:48.260356300Z Test worker DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2024-07-12T08:11:48.265675Z Test worker DEBUG LoggerConfig$RootLogger$Builder(additivity="true", level="INFO", levelAndRefs="null", includeLocation="null", ={console}, ={}, Configuration(C:\Users\USER\IdeaProjects\day7\build\resources\main\log4j2.xml), Filter=null)
+2024-07-12T08:11:48.268821100Z Test worker DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2024-07-12T08:11:48.268821100Z Test worker DEBUG createAppenderRef(ref="console", level="null", Filter=null)
+2024-07-12T08:11:48.268821100Z Test worker DEBUG Building Plugin[name=logger, class=org.apache.logging.log4j.core.config.LoggerConfig].
+2024-07-12T08:11:48.268821100Z Test worker DEBUG LoggerConfig$Builder(additivity="false", level="INFO", levelAndRefs="null", name="org.example", includeLocation="null", ={console}, ={}, Configuration(C:\Users\USER\IdeaProjects\day7\build\resources\main\log4j2.xml), Filter=null)
+2024-07-12T08:11:48.273830500Z Test worker DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2024-07-12T08:11:48.275886200Z Test worker DEBUG createLoggers(={root, org.example})
+2024-07-12T08:11:48.276906100Z Test worker DEBUG Configuration XmlConfiguration[location=C:\Users\USER\IdeaProjects\day7\build\resources\main\log4j2.xml] initialized
+2024-07-12T08:11:48.276906100Z Test worker DEBUG Starting configuration XmlConfiguration[location=C:\Users\USER\IdeaProjects\day7\build\resources\main\log4j2.xml]
+2024-07-12T08:11:48.276906100Z Test worker DEBUG Started configuration XmlConfiguration[location=C:\Users\USER\IdeaProjects\day7\build\resources\main\log4j2.xml] OK.
+2024-07-12T08:11:48.276906100Z Test worker DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2024-07-12T08:11:48.276906100Z Test worker DEBUG OutputStream closed
+2024-07-12T08:11:48.276906100Z Test worker DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2024-07-12T08:11:48.276906100Z Test worker DEBUG Appender DefaultConsole-1 stopped with status true
+2024-07-12T08:11:48.276906100Z Test worker DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@6127a7e OK
+2024-07-12T08:11:48.408567500Z Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=7852e922
+2024-07-12T08:11:48.411784700Z Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=7852e922,component=StatusLogger
+2024-07-12T08:11:48.417225100Z Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=7852e922,component=ContextSelector
+2024-07-12T08:11:48.419285500Z Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=7852e922,component=Loggers,name=
+2024-07-12T08:11:48.419285500Z Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=7852e922,component=Loggers,name=org.example
+2024-07-12T08:11:48.419285500Z Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=7852e922,component=Appenders,name=console
+2024-07-12T08:11:48.423595900Z Test worker DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2024-07-12T08:11:48.423595900Z Test worker DEBUG Reconfiguration complete for context[name=7852e922] at URI C:\Users\USER\IdeaProjects\day7\build\resources\main\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@47289387) with optional ClassLoader: null
+2024-07-12T08:11:48.423595900Z Test worker DEBUG Shutdown hook enabled. Registering a new one.
+2024-07-12T08:11:48.425987200Z Test worker DEBUG LoggerContext[name=7852e922, org.apache.logging.log4j.core.LoggerContext@47289387] started OK.
+2024-07-12 05:11:48  INFO [org.example.MyTests] test 한글 info.........
+2024-07-12 05:11:48 ERROR [org.example.MyTests] test 한글 error.........
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
